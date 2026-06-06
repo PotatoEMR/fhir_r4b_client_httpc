@@ -1,12 +1,12 @@
 name = "fhir_r4b_client_httpc"
-version = "0.8.0"
+version = "0.9.0"
 
 description = "r4b httpc client layer - see https://hexdocs.pm/fhir/ "
 licences = ["MIT"]
 
 [dependencies]
 gleam_stdlib = ">= 0.44.0 and < 2.0.0"
-fhir_r4b = { git = "https://github.com/PotatoEMR/fhir_r4b", ref = "8126aa4628875948545ee14a20f7ac38ab703cc2" }
+fhir_r4b = { git = "https://github.com/PotatoEMR/fhir_r4b", ref = "0202172d1bf0993a53205c7f8ea834e65fa7273a" }
 gleam_http = ">= 4.3.0 and < 5.0.0"
 gleam_json = ">= 3.1.0 and < 4.0.0"
 gleam_httpc = ">= 5.0.0 and < 6.0.0"
